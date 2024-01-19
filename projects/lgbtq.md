@@ -1,14 +1,14 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+image: img/lgbtq/logoblack.png
+title: "LGBTQ+"
+date: 2023
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - React
+  - Bootstrap 5
+  - Webpack
   - GitHub
 summary: "A responsive web application for travel planning that my team developed in ICS 415."
 ---
