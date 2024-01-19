@@ -10,16 +10,15 @@
     "location": { "address": "", "postalCode": "96789", "city": "Mililani", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jalenlum", "url": "http://github.com/jalenlum" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/jalenlum" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/jalenlum" }
+      { "network": "linkedin", "username": "jalenlum", "url": "http://linkedin.com/in/jalenlum" },
+      { "network": "instagram", "username": "jalenlum", "url": "http://instagram.com/jalenlum" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
+    { "name": "Software Engineering" },
+    { "name": "Development Tools" },
     { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Artificial Intelligence" },
   ],
   "skills": [
     {
