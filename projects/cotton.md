@@ -1,13 +1,15 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+image: img/rose/rose.png
+title: "Team Robotic Space Exploration (RoSE)"
+date: 2023
 published: true
 labels:
-  - Lisp
+  - React
+  - JavaScript
   - GitHub
+  - Jira
 summary: "A text adventure game that I developed for ICS 313."
 ---
 
