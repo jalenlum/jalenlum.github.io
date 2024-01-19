@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/calculator/lifte.jpg
+image: img/calculator/lifte.png
 title: "Weightlifting Calculator"
 date: 2023
 published: true
