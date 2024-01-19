@@ -1,14 +1,15 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+image: img/calculator/lifte.jpg
+title: "Weightlifting Calculator"
+date: 2023
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - React
+  - JavaScript
+  - Bootstrap 5
+  - Github
 summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
 ---
 
