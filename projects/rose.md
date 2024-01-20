@@ -10,7 +10,7 @@ labels:
   - JavaScript
   - GitHub
   - Jira
-summary: "A text adventure game that I developed for ICS 313."
+summary: "A vertically integrated project(VIP) at the University of Hawai'i at Manoa that strives to design and build a rover that participates in the University Rover Challenge."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">

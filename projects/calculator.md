@@ -10,7 +10,7 @@ labels:
   - JavaScript
   - Bootstrap 5
   - Github
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+summary: "A responsive web application that serves as a weightlifting calculator to help me with my health goals."
 ---
 
 <div class="text-center p-4">
