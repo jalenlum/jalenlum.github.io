@@ -16,8 +16,7 @@
   "interests": [
     { "name": "Software Engineering" },
     { "name": "Development Tools" },
-    { "name": "Quantum Computing" },
-    { "name": "Artificial Intelligence" },
+    { "name": "Machine Learning" }
   ],
   "skills": [
     {
