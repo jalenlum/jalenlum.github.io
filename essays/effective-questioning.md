@@ -23,7 +23,7 @@ In the space of software engineering, effective communication is important, and 
 <h1>The Smart Way: Efficient and Effective Help</h1>
 
 <div class="text-center p-4">
-  <img src="../img/effective-questioning/smart-question.png" class="img-thumbnail" >
+  <img src="../img/effective-questioning/smart-questions.png" class="img-thumbnail" >
 </div>
 
 <h2>Smart Question Example</h2>
@@ -35,7 +35,7 @@ This question adheres to several characteristics such as research effort. The de
 <h1>The Not-So-Smart Way: Inefficient Help and Frustration</h1>
 
 <div class="text-center p-4">
-  <img src="../img/effective-questioning/bad-question.png" class="img-thumbnail" >
+  <img src="../img/effective-questioning/bad-questions.png" class="img-thumbnail" >
 </div>
 
 <h2>Not-So-Smart Question Example</h2>
