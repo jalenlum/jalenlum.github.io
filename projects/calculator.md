@@ -28,7 +28,7 @@ All of the calculations for my weightlifting website were made using JavaScript,
 
 Here is some code that illustrates how my application performs its calculations:
 
-<!-- ```cpp
+```
 const [maxLift, setMaxLift] = useState(0)
 const [increment, setIncrement] = useState(5)
 
@@ -42,4 +42,4 @@ const calculateWeight = (percentage) => {
   const roundedWeight = customRound(maxLift * percentage, 2.5);
   return roundedWeight;
 }
-``` -->
+```
