@@ -10,8 +10,13 @@ labels:
   - Bootstrap 5
   - Webpack
   - GitHub
+  - Vercel
 summary: "A responsive web application for LGBTQ+ Center for the University of Hawai'i at Manoa"
 ---
+
+<div class="text-center p-4">
+  <img src="../img/lgbtq/lgbtq-web.png" class="img-thumbnail" >
+</div>
 
 Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
