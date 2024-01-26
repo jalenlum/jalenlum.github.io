@@ -17,6 +17,10 @@ In the space of software engineering, effective communication is important, and 
 
 <h1>The Smart Way: Efficient and Effective Help</h1>
 
+<div class="text-center p-4">
+  <img src="../img/effective-questioning/smart-question.png" class="img-thumbnail" >
+</div>
+
 <h2>Smart Question Example</h2>
 
 We are going to be examining a smart question on StackOverflow that aligns with the principles of effective communication with the open source community. The question is titled "What's the best way to represent a list of big numpy arrays with pandas? <a href="https://stackoverflow.com/questions/77888018/whats-the-best-way-to-represent-a-list-of-big-numpy-arrays-with-pandas" rel="noopener noreferrer" target="_blank">Smart Question Example</a> demonstrates several characteristics of a smart question.
@@ -24,6 +28,10 @@ We are going to be examining a smart question on StackOverflow that aligns with 
 This question to several characteristics such as research effort. The developer provides information about their attempt to solve the problem, providing a clear context of the problem the developer is working on. It explains that they are dealing with a substantial model that processes parameters and generates outputs. The developer not only asks for guidance but also contributes to the discussion by presenting two potential solutions that they have considered. By providing their thoughts, it shows the they have invested into the problem, reinforcing their commitment to finding a solution.
 
 <h1>The Not-So-Smart Way: Inefficient Help and Frustration</h1>
+
+<div class="text-center p-4">
+  <img src="../img/effective-questioning/bad-question.png" class="img-thumbnail" >
+</div>
 
 <h2>Not-So-Smart Question Example</h2>
 
