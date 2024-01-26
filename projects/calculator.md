@@ -18,9 +18,9 @@ summary: "A responsive web application that serves as a weightlifting calculator
 </div>
 
 
-I developed the weightlifting calculator as a web application as part of a personal project, with the primary goal of healing me with my health and fitness.
+I developed the weightlifting calculator as a web application as part of a personal project, with the primary goal of helping me with my health and fitness.
 
-My website is equipped with two different calculaotrs. The Smolov Jr calculator is designed to assist users in implementing the renowned Smolov Jr program, optimizing their training for increased strength. Additionally, the one-rep max calculator, utilizing the Brzycki formula, offers a reliable method to estimate your maximum lifting capacity.
+My website is equipped with two different calculators. The Smolov Jr calculator is designed to assist users in implementing the renowned Smolov Jr program, optimizing their training for increased strength. Additionally, the one-rep max calculator, utilizing the Brzycki formula, offers a reliable method to estimate your maximum lifting capacity.
 
 This weightlifting calculator is a frontend application that utilizes React.js framework for its hooks and reusable components, enabling it to efficiently manage stateful logic. This application also uses Bootstrap 5 for its intuitive grid system and responsive design features to create a sleep and visually appealing user interface.
 
@@ -36,12 +36,11 @@ const maxChange = (e) =>{ setMaxLift(e.target.value) }
 
 const incrementChange = (e) =>{ setIncrement(e.target.value) }
 
-const customRound = (value, step) => { return 2.5 * Math.floor((Math.floor(value) + step / 2) / step); };
+const customRound = (value, step) => { return 2.5 * Math.floor((Math.floor(value) + step / 2) / step); }
 
 const calculateWeight = (percentage) => {
   const roundedWeight = customRound(maxLift * percentage, 2.5);
   return roundedWeight;
 }
 ```
-
 In the future, I plan to 
