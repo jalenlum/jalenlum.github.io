@@ -18,7 +18,15 @@ summary: "A responsive web application that serves as a weightlifting calculator
 </div>
 
 
+I developed the weightlifting calculator as a web application as part of a personal project, with the primary goal of healing me with my health and fitness.
 
+My website is equipped with two different calculaotrs. The Smolov Jr calculator is designed to assist users in implementing the renowned Smolov Jr program, optimizing their training for increased strength. Additionally, the one-rep max calculator, utilizing the Brzycki formula, offers a reliable method to estimate your maximum lifting capacity.
+
+This weightlifting calculator is a frontend application that utilizes React.js framework for its hooks and reusable components, enabling it to efficiently manage stateful logic. This application also uses Bootstrap 5 for its intuitive grid system and responsive design features to create a sleep and visually appealing user interface.
+
+All of the calculations for my weightlifting website were made using JavaScript, ensuring seamless execution within the browser environment, allowing users to conveniently perform dynamic calculations.
+
+```cpp
 byte ADCRead(byte ch)
 {
     word value;
