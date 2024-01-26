@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/lgbtq/logoblack.png
+image: img/lgbtq/logoblack.jpg
 title: "UHM LGBTQ+ Website Redesign"
 date: 2023
 published: true
