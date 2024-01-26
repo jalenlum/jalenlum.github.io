@@ -16,7 +16,9 @@
   "interests": [
     { "name": "Software Engineering" },
     { "name": "Development Tools" },
-    { "name": "Web Development" }
+    { "name": "Web Development" },
+    { "name": "App Development" },
+    { "name": "UX/UI Design" }
   ],
   "skills": [
     {
