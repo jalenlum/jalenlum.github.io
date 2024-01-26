@@ -29,18 +29,18 @@ All of the calculations for my weightlifting website were made using JavaScript,
 Here is some code that illustrates how my application performs its calculations:
 
 ```
-const [maxLift, setMaxLift] = useState(0)
-const [increment, setIncrement] = useState(5)
+  const [maxLift, setMaxLift] = useState(0)
+  const [increment, setIncrement] = useState(5)
 
-const maxChange = (e) =>{ setMaxLift(e.target.value) }
+  const maxChange = (e) =>{ setMaxLift(e.target.value) }
 
-const incrementChange = (e) =>{ setIncrement(e.target.value) }
+  const incrementChange = (e) =>{ setIncrement(e.target.value) }
 
-const customRound = (value, step) => { return 2.5 * Math.floor((Math.floor(value) + step / 2) / step); }
+  const customRound = (value, step) => { return 2.5 * Math.floor((Math.floor(value) + step / 2) / step); }
 
-const calculateWeight = (percentage) => {
-  const roundedWeight = customRound(maxLift * percentage, 2.5);
-  return roundedWeight;
-}
+  const calculateWeight = (percentage) => {
+    const roundedWeight = customRound(maxLift * percentage, 2.5);
+    return roundedWeight;
+  }
 ```
-In the future, I plan to 
+In the future, I plan to use Webpack which provides a powerful and flexible solution for managing and optimizing the build process of your application.
