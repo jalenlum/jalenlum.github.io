@@ -26,14 +26,20 @@ This weightlifting calculator is a frontend application that utilizes React.js f
 
 All of the calculations for my weightlifting website were made using JavaScript, ensuring seamless execution within the browser environment, allowing users to conveniently perform dynamic calculations.
 
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+Here is some code that illustrates how my application performs its calculations:
 
+```cpp
+const [maxLift, setMaxLift] = useState(0)
+const [increment, setIncrement] = useState(5)
+
+const maxChange = (e) =>{ setMaxLift(e.target.value) }
+
+const incrementChange = (e) =>{ setIncrement(e.target.value) }
+
+const customRound = (value, step) => { return 2.5 * Math.floor((Math.floor(value) + step / 2) / step); };
+
+const calculateWeight = (percentage) => {
+  const roundedWeight = customRound(maxLift * percentage, 2.5);
+  return roundedWeight;
+}
 ```
