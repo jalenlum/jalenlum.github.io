@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/rose/rose.png
-title: "Team Robotic Space Exploration (RoSE)"
+title: "Team Robotics and Space Exploration (RoSE)"
 date: 2023
 published: true
 labels:
@@ -13,49 +13,58 @@ labels:
 summary: "A vertically integrated project(VIP) at the University of Hawai'i at Manoa that strives to design and build a rover that participates in the University Rover Challenge."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<div class="text-center p-4">
+  <img src="../img/rose/roseui.png" class="img-thumbnail" >
+</div>
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+The Robotics and Space Explorations team, a vertically integrated project (VIP) at the University of Hawai'i at Manoa, is dedicated to designing and building a rover for participation in the University Rover Challenge (URC). Specifically, I am a member of the Ground Station software sub-team, responsible for designing and developing a functional user interface.
 
-To give you a flavor of the game, here is an excerpt from one run:
+To enhance user experience and efficiency, our sub-team has successfully restructured the rover’s control user interface. Our tasks are closely aligned with the progress of other sub-teams within ROSE, and our efforts contribute to the overall success of the project.
 
-<hr>
+This website is built using React, leveraging its hooks and dependencies. This implementation allows for efficient management of stateful logic and enables us to extend React's capabilities. Additionally, it contributes to improved code organization and enhances the overall development experience by providing solutions to common challenges encountered in building modern web applications.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+Here is some code that shows the styling for the speedometer component of the user interface:
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+```
+     <div style={{ backgroundColor: '#282c34' }}>
+          <GaugeComponent
+              id="speedometer-gauge"
+              arc={{
+                nbSubArcs: 150,
+                colorArray: ['#5BE12C', '#F5CD19', '#EA4228'],
+                width: 0.025,
+                padding: 0.003
+              }}
+              labels={{
+                valueLabel: {
+                  fontSize: 40,
+                  formatTextValue: value => value + 'm/s'
+                },
+                tickLabels: {
+                  type: "outer",
+                  ticks: [
+                    { value: 100 },
+                    { value: 200 },
+                    { value: 300 },
+                    { value: 400 },
+                    { value: 500 },
+                    { value: 600 },
+                    { value: 700 },
+                    { value: 800 },
+                    { value: 900 },
+                    { value: 1000 },
+                    { value: 1500 },
+                    { value: 2000 },
+                    { value: 2500 },
+                    { value: 3000 },
+                  ],
+                  valueConfig: {
+                    formatTextValue: value => value + 'm/s'
+                  }
+                }
+              }}
+              value={linSpeed}
+              maxValue={3000}
+          />
+        </div>
+```
