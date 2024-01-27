@@ -24,46 +24,6 @@ This website is built using React, leveraging its hooks and dependencies. This i
 
 Here is some code that shows the styling for the speedometer component of the user interface:
 ```
-     <div style={{ backgroundColor: '#282c34' }}>
-        <GaugeComponent
-            id="speedometer-gauge"
-            arc={{
-              nbSubArcs: 150,
-              colorArray: ['#5BE12C', '#F5CD19', '#EA4228'],
-              width: 0.025,
-              padding: 0.003
-            }}
-            labels={{
-              valueLabel: {
-                fontSize: 40,
-                formatTextValue: value => value + 'm/s'
-              },
-              tickLabels: {
-                type: "outer",
-                ticks: [
-                  { value: 100 },
-                  { value: 200 },
-                  { value: 300 },
-                  { value: 400 },
-                  { value: 500 },
-                  { value: 600 },
-                  { value: 700 },
-                  { value: 800 },
-                  { value: 900 },
-                  { value: 1000 },
-                  { value: 1500 },
-                  { value: 2000 },
-                  { value: 2500 },
-                  { value: 3000 },
-                ],
-                valueConfig: {
-                  formatTextValue: value => value + 'm/s'
-                }
-              }
-            }}
-            value={linSpeed}
-            maxValue={3000}
-        />
-      </div>
+
 ```
 Express.js serves as a crucial component in our system, facilitating communication with the rover to acquire essential data such as linear speed while also enabling us to control the robot. Leveraging Express.js for our server-side implementation ensures a robust and efficient communication channel. By establishing routes and handling requests, we seamlessly retrieve real-time information, allowing us to monitor the rover's linear speed dynamically. Moreover, Express.js empowers us to implement controls that influence the robot's behavior, providing a responsive and interactive means of managing the rover's actions. This integration not only enhances the reliability of data retrieval but also offers a streamlined approach to remotely controlling and monitoring the rover's performance in the field.
