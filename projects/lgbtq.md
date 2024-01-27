@@ -18,14 +18,29 @@ summary: "A responsive web application for LGBTQ+ Center for the University of H
   <img src="../img/lgbtq/lgbtq-web.png" class="img-thumbnail" >
 </div>
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+A team of friends and I took on the redesign of UH Manoa's LGBTQ+ Center's web application as our first project for our club, 8bit. The revamped website features a modern and accessible design that prioritizes ease of navigation and content engagement.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+This website is equipped with two different calculators. The Smolov Jr calculator is designed to assist users in implementing the renowned Smolov Jr program, optimizing their training for increased strength. Additionally, the one-rep max calculator, utilizing the Brzycki formula, offers a reliable method to estimate your maximum lifting capacity.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+This weightlifting calculator is a frontend application that utilizes React.js framework for its hooks and reusable components, enabling it to efficiently manage stateful logic. This application also uses Bootstrap 5 for its intuitive grid system and responsive design features to create a sleep and visually appealing user interface.
 
-Here is some example code to illustrate Simple Schema use:
+All of the calculations for my weightlifting website were made using JavaScript, ensuring seamless execution within the browser environment, allowing users to conveniently perform dynamic calculations.
 
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
+Here is some code that illustrates how my application performs its calculations:
+
+```
+  const [maxLift, setMaxLift] = useState(0)
+  const [increment, setIncrement] = useState(5)
+
+  const maxChange = (e) =>{ setMaxLift(e.target.value) }
+
+  const incrementChange = (e) =>{ setIncrement(e.target.value) }
+
+  const customRound = (value, step) => { return 2.5 * Math.floor((Math.floor(value) + step / 2) / step); }
+
+  const calculateWeight = (percentage) => {
+    const roundedWeight = customRound(maxLift * percentage, 2.5);
+    return roundedWeight;
+  }
+```
+In the future, I plan to use Webpack which provides a powerful and flexible solution for managing and optimizing the build process of your application.
