@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Navigating the Smart Way: Unveiling the Impact of Effective Questioning on StackOverflow"
+title: "Navigating the Smart Way: The Impact of Effective Questioning on StackOverflow"
 # All dates must be YYYY-MM-DD format!
 date: 2024-1-25
 published: true
@@ -14,7 +14,6 @@ labels:
 <div class="text-center p-4">
   <img src="../img/effective-questioning/stackoverflow.png" class="img-thumbnail" >
 </div>
-
 
 <h1>Introduction</h1>
 
