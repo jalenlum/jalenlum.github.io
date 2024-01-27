@@ -49,10 +49,24 @@
       "website": "",
       "startDate": "2023-02-22",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Administrative Assistant for the Dean's Office",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Proofread over a hundred curriculum requests and course changes",
+        "Responded to  emails, addressed inquiries, and maintained clear and organized communication",
+        "Created tables, charts, and graphs to analyze data effectively using Microsoft Excel"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Team RObotic Space Exploration (ROSE)",
+      "website": "https://manoa.hawaii.edu/uh-vip/project/robotic-space-exploration-rose-vip/",
+      "position": "GNC Software Subteam Member",
+      "startDate": "2023-10-22",
+      "endDate": "Present",
+      "summary": "Ground Station UX/UI Software Developer",
+      "highlights": [
+        "Restructured the rover’s control user interface to maximize user experience and increase efficiency"
       ]
     }
   ],
