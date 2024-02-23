@@ -9,8 +9,9 @@ labels:
   - React
   - JavaScript
   - Bootstrap 5
+  - Webpack
   - Github
-  - Netlify
+  - Vercel
 summary: "A responsive web application that serves as a weightlifting calculator to help me with my health goals."
 ---
 
