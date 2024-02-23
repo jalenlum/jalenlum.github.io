@@ -20,8 +20,6 @@ labels:
 
 When it comes to software engineering, coding standards play a huge role. They help developers communicate effectively and ensure that everyone is on the same page. Just like asking smart questions, following coding standards brings clarity, consistency, and collaboration to the programming environment. By sharing the intricacies of coding standards with ESLint and IntelliJ, this essay will shed light on the value of coding standards in enhancing programming proficiency.
 
-<h1>Elevating Software Quality</h1>
-
 To illustrate the essence of coding standards, the implementation of ESLint with IntelliJ is examined as a tool for enforcing coding conventions. Beyond just the superficial aspects like indentation and brace placement, coding standards embody a commitment to producing high-quality code. Just as smart questions demonstrate research effort, adhering to coding standards signifies a developer's dedication to writing clean code.
 
 <h1>Reflection on ESLint Usage</h1>
