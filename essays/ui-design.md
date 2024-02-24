@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "A Deep Dive into the World of Frameworks and Technology"
 # All dates must be YYYY-MM-DD format!
-date: 2024-2-08
+date: 2024-2-24
 published: true
 labels:
   - ICS 314
