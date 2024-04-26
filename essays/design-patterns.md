@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Design Patterns: Influence on Software Engineering"
 # All dates must be YYYY-MM-DD format!
-date: 2024-1-17
+date: 2024-4-25
 published: true
 labels:
   - ICS 314
