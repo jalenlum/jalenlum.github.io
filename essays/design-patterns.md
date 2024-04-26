@@ -10,10 +10,6 @@ labels:
   - Software Engineering
 ---
 
-<div class="text-center p-4">
-  <img src="../img/javascript-reflection/javascript.jpg" class="img-thumbnail" >
-</div>
-
 <h1>Introduction</h1>
 
 In the world of software engineering, design patterns are like standardized solutions for common problems, much like how nature has its own solutions to recurring challenges. Developers use these patterns to build sturdy and adaptable software systems.
