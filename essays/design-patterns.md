@@ -10,6 +10,10 @@ labels:
   - Software Engineering
 ---
 
+<div class="text-center p-4">
+  <img src="https://marvel-b1-cdn.bc0a.com/f00000000277771/sitecorecms.bsu.edu//-/media/www/departmentalcontent/musicschool/images/ensembles/bsso_12-8-15_t.jpg?h=601&w=1500&hash=B0A82EBD55AB2FB5183180D2D7B2170EF0D66C78" class="img-thumbnail" >
+</div>
+
 <h1>Introduction</h1>
 In the realm of software engineering, design patterns stand as stalwart solutions to recurring problems, akin to nature's innate responses to its own challenges. These patterns, akin to blueprints for construction, provide developers with standardized approaches to building resilient and adaptable software systems. By understanding and implementing these patterns, developers can streamline their coding processes and create more efficient and maintainable software.
 
