@@ -24,7 +24,7 @@ The website is equipped with intuitive features for both posting lost items and 
 
 The Lost and Found website features departmental accounts for different university departments to post found items, each managed by designated staff members. These accounts have specific permissions for adding, editing, and removing listings. Additionally, there is an admin account overseeing all departmental accounts, ensuring compliance with site policies and resolving disputes when necessary. This streamlined structure facilitates efficient coordination between departments while maintaining accountability and reliability.
 
-This Lost and Found website is a frontend application developed using the React.js framework, leveraging its stateful logic and reusable components to provide an efficient and user-friendly experience. Bootstrap 5 was utilized for its responsive design features, ensuring accessibility across different devices and screen sizes. All functionalities, including item posting and eediting, were implemented using Meteor.js, enabling dynamic interactions within the browser environment.
+This Lost and Found website is a frontend application developed using the React.js framework, leveraging its stateful logic and reusable components to provide an efficient and user-friendly experience. Bootstrap 5 was utilized for its responsive design features, ensuring accessibility across different devices and screen sizes. All functionalities, including item posting and editing, were implemented using Meteor.js, enabling dynamic interactions within the browser environment.
 
 Here is an example of how the information is displayed using a React Bootstrap card component:
 
