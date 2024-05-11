@@ -26,7 +26,7 @@ The Lost and Found website features departmental accounts for different universi
 
 This Lost and Found website is a frontend application developed using the React.js framework, leveraging its stateful logic and reusable components to provide an efficient and user-friendly experience. Bootstrap 5 was utilized for its responsive design features, ensuring accessibility across different devices and screen sizes. All functionalities, including item posting and editing, were implemented using Meteor.js, enabling dynamic interactions within the browser environment.
 
-Here is an example of how the information is displayed using a React Bootstrap card component:
+Here is an example of how I integrated the information displayed using a React Bootstrap card component which fetches the information from our database:
 
 ```
     <Card className="h-100 shadow">
