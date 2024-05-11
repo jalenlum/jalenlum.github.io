@@ -69,7 +69,8 @@
       "endDate": "Present",
       "summary": "Ground Station UX/UI Software Developer",
       "highlights": [
-        "Restructured the rover’s control user interface to maximize user experience and increase efficiency"
+        "Played a key role in the refactoring of the interface, consolidating six intermediary pages into a single streamlined interface, increasing user efficiency and user experience",
+        "Successfully implemented a speedometer and systems page component, enhancing real-time data visualization for rover metrics, using React.js, JavaScript, and Bootstrap"
       ]
     },
     {
