@@ -8,9 +8,10 @@ published: true
 labels:
   - React
   - Bootstrap 5
+  - Typescript
   - Webpack
-  - GitHub
-  - Vercel
+  - Django
+  - PostgreSQL
 summary: "A responsive web application for LGBTQ+ Center for the University of Hawai'i at Manoa"
 ---
 
