@@ -17,17 +17,21 @@
     { "name": "Software Engineering" },
     { "name": "Development Tools" },
     { "name": "Web Development" },
-    { "name": "App Development" },
-    { "name": "UX/UI Design" }
+    { "name": "UX/UI Design" },
+    { "name": "Artificial Intelligence" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "Java", "HTML", "CSS", "Javascript", "C", "C++", "Python", "React", "Bootstrap 5" ]
+      "name": "Languages",
+      "keywords": [ "Java", "HTML/CSS", "JavaScript", "TypeScript", "C", "C++", "Python", "SQL" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "Windows 10", "Ubuntu", "Git/GitHub", "g++" ]
+      "name": "Frameworks and Technology",
+      "keywords": [ "React.js", "Bootstrap", "Webpack", "Node.js", "Django" ]
+    },
+    {
+      "name": "Databse Management",
+      "keywords": [ "MySQL", "PostgreSQL", "MongoDB" ]
     }
   ],
   "education": [
@@ -51,9 +55,8 @@
       "endDate": "Present",
       "summary": "Administrative Assistant for the Dean's Office",
       "highlights": [
-        "Proofread over a hundred curriculum requests and course changes",
-        "Responded to  emails, addressed inquiries, and maintained clear and organized communication",
-        "Created tables, charts, and graphs to analyze data effectively using Microsoft Excel"
+        "Revamped the Learning Emporium website using cutting-edge technologies including React.js, Django, and TypeScript, streamlining the tutor schedule update process from seven steps down to one",
+        "Provided technical support by troubleshooting and repairing hardware and software issues on both Mac and Windows machines"
       ]
     }
   ],
@@ -67,6 +70,18 @@
       "summary": "Ground Station UX/UI Software Developer",
       "highlights": [
         "Restructured the rover’s control user interface to maximize user experience and increase efficiency"
+      ]
+    },
+    {
+      "organization": "8bitUHM",
+      "website": "https://8bituhm.org/",
+      "position": "Full Stack Software Trainee",
+      "startDate": "2024-1-10",
+      "endDate": "Present",
+      "summary": "8bit is a group of students from the University of Hawaii at Manoa passionate about software development and creating impactful software solutions.",
+      "highlights": [
+        "Facilitated in the development of four software services for two distinct clients, leveraging modern technologies such as Django and TypeScript",
+        "Communicated regularly with clients to understand their project requirements, preferences, and feedback, resulting in a tailored and successful project outcome that exceeded expectations"      
       ]
     }
   ],
