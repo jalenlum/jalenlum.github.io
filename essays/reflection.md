@@ -11,7 +11,7 @@ labels:
 ---
 
 <div class="text-center p-4">
-  <img src="../img/coding-standards/eslint.png" class="img-thumbnail" >
+  <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/06/software-engineer.jpeg.jpg" class="img-thumbnail" >
 </div>
 
 <h1>Introduction</h1>
