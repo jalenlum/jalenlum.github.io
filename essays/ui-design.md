@@ -16,7 +16,7 @@ labels:
   <img src="https://opensenselabs.com/sites/default/files/styles/social_/public/2018-03/Bootstrap-opensenselabs-banner.jpg?itok=2OFk5O03" class="img-thumbnail" >
 </div>
 
-<h1>Introduction</h1>
+<h1>Introductions</h1>
 
 In the vast landscape of web development, user interface (UI) frameworks stand as powerful tools that promise to streamline the design process and enhance the overall user experience. However, diving into these frameworks, such as Bootstrap 5, often feels like traversing a dense jungle of complexities. This essay aims to explore the rationale behind using UI frameworks, the challenges they pose, and the benefits they bring to the table.
 
