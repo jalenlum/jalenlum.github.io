@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jalen Lum",
-    "label": "Computer Science Undergraduate - UH Manoa",
+    "label": "B.S. Computer Science - UH Mānoa",
     "picture": "https://github.com/jalenlum.png",
-    "email": "lumjalen@hawaii.edu",
+    "email": "808jalen@gmail.com",
     "phone": "808-726-4637",
     "website": "https://jalenlum.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2025.",
+    "summary": "I am pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaiʻi at Mānoa, with an expected graduation date of December 2025. I plan to apply for the M.S. in Computer Science to begin in Spring 2026.",
     "location": { "address": "", "postalCode": "96789", "city": "Mililani", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jalenlum", "url": "http://github.com/jalenlum" },
@@ -22,82 +22,154 @@
   ],
   "skills": [
     {
-      "name": "Languages",
-      "keywords": [ "Java", "HTML/CSS", "JavaScript", "TypeScript", "C", "C++", "Python", "SQL" ]
+      "name": "Languages & Frameworks",
+      "keywords": [ "Java (Spring Boot)", "HTML/CSS", "JavaScript (Express, React, Next.js, Angular)", "TypeScript", "Python (Django, Flask)", "SQL", "C", "C++" ]
     },
     {
-      "name": "Frameworks and Technology",
-      "keywords": [ "React.js", "Bootstrap", "Webpack", "Node.js", "Django" ]
+      "name": "Database Management",
+      "keywords": [ "PostgreSQL", "MySQL", "SQLite", "MongoDB" ]
     },
     {
-      "name": "Databse Management",
-      "keywords": [ "MySQL", "PostgreSQL", "MongoDB" ]
+      "name": "Developer Tools",
+      "keywords": [ "Expo", "Docker", "Git", "Webpack", "Firebase" ]
+    },
+    {
+      "name": "Cloud Services",
+      "keywords": [ "DigitalOcean", "Heroku", "AWS Lightsail" ]
+    },
+    {
+      "name": "Methodologies",
+      "keywords": [ "Agile", "CI/CD", "Test-Driven Development" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2025)",
+      "institution": "University of Hawaiʻi at Mānoa, Honolulu, HI",
+      "area": "Computer Science (expected Dec 2025)",
       "studyType": "B.S.",
       "startDate": "2022-08-22",
-      "endDate": "Present",
-      "courses": [ "Intro to Computer Science", "Discrete Mathematics", "Program Structure", "Software Engineering",
-        "Algorithms and Data Structures"
+      "endDate": "2025-12-20",
+      "gpa": "3.76",
+      "courses": [
+        "Programming in Java and C",
+        "Software Engineering",
+        "Algorithms and Data Structures",
+        "Operating Systems",
+        "Database Systems",
+        "Computer Ethics",
+        "Programming Language Theory",
+        "Data Networks",
+        "Machine Learning Methods",
+        "Software Quality Assurance",
+        "Data Visualization",
+        "Big Data Analytics"
+      ],
+      "honors": [
+        "Dean’s List: AY 2022–2025"
+      ],
+      "activities": [
+        "Founding Member and President, 8bit UHM",
+        "GNC Software Developer, Team Robotic Space Exploration (RoSE)"
+      ]
+    },
+    {
+      "institution": "Mililani High School",
+      "area": "STEM Honors",
+      "studyType": "High School Diploma",
+      "startDate": "2018-08-01",
+      "endDate": "2022-05-20",
+      "honors": [
+        "Summa Cum Laude",
+        "Academic & STEM Honors",
+        "National Honors Society"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa College of Natural Sciences",
+      "company": "University of Hawaiʻi System",
+      "position": "Web Application Developer",
+      "website": "",
+      "startDate": "2025-09-01",
+      "endDate": "Present",
+      "summary": "Part-time Web Application Developer for the UH System (ITS)",
+      "location": "Honolulu, HI (Remote)"
+    },
+    {
+      "company": "State of Hawaiʻi Department of Transportation",
+      "position": "Software Developer Intern",
+      "website": "",
+      "startDate": "2025-05-01",
+      "endDate": "2025-08-31",
+      "summary": "Developed automated geospatial systems and web applications for construction permit processing.",
+      "highlights": [
+        "Engineered a webhook integration system that connected Survey123 form submissions to a custom Python REST API using Flask, triggering automated email notifications based on geospatial logic, and reducing manual conflict-checking time by 90%.",
+        "Developed a full-stack web application using ArcGIS, HTML, and Flask to consolidate and streamline the process of applying for, processing, and issuing construction permits, reducing total processing time by 90% and improving turnaround for over 180 submissions."
+      ]
+    },
+    {
+      "company": "University of Hawaiʻi at Mānoa",
       "position": "Administrative Assistant",
       "website": "",
-      "startDate": "2023-02-22",
-      "endDate": "Present",
-      "summary": "Administrative Assistant for the Dean's Office",
+      "startDate": "2023-02-01",
+      "endDate": "2025-05-31",
+      "summary": "Part-time Administrative Assistant for the College of Natural Sciences Dean's Office.",
       "highlights": [
-        "Revamped the Learning Emporium website using cutting-edge technologies including React.js, Django, and TypeScript, streamlining the tutor schedule update process from seven steps down to one",
-        "Provided technical support by troubleshooting and repairing hardware and software issues on both Mac and Windows machines"
+        "Revamped the Learning Emporium website using React.js, Django, and TypeScript, streamlining the tutor schedule update process from seven steps down to one.",
+        "Provided technical support by troubleshooting and repairing hardware and software issues on both Mac and Windows machines."
+      ]
+    },
+    {
+      "company": "University of Hawaiʻi at Mānoa, Department of Information and Computer Sciences",
+      "position": "Discrete Mathematics II Learning Assistant",
+      "website": "",
+      "startDate": "2024-08-01",
+      "endDate": "2024-12-20",
+      "summary": "Learning Assistant for ICS 241 (Discrete Mathematics II).",
+      "highlights": [
+        "Supported over 60 students by providing guidance on algorithms and data structure concepts, resulting in improved comprehension and academic performance across the class."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Team RObotic Space Exploration (ROSE)",
-      "website": "https://manoa.hawaii.edu/uh-vip/project/robotic-space-exploration-rose-vip/",
-      "position": "GNC Software Subteam Member",
-      "startDate": "2023-10-22",
+      "organization": "8bit at UH Mānoa",
+      "website": "https://8bituhm.org/",
+      "position": "Founding Member and President",
+      "startDate": "2024-03-01",
       "endDate": "Present",
-      "summary": "Ground Station UX/UI Software Developer",
+      "summary": "President of 8bit, a student-led software engineering Special Interest Group at UH Mānoa.",
       "highlights": [
-        "Played a key role in the refactoring of the interface, consolidating six intermediary pages into a single streamlined interface, increasing user efficiency and user experience",
-        "Successfully implemented a speedometer and systems page component, enhancing real-time data visualization for rover metrics, using React.js, JavaScript, and Bootstrap"
+        "Developed 4 full-stack web applications for distinct clients using React, TypeScript, Django, PostgreSQL, and Firebase, securing $2500+ in funding to support club operations.",
+        "Designed and implemented CI/CD pipelines with Docker, GitHub Actions, and AWS Lightsail, automating deployments and reducing manual release overhead by 90%.",
+        "Led a 10-person software engineering team using Agile sprints and GitHub Projects to deliver client software on time and improve development cycle efficiency."
       ]
     },
     {
-      "organization": "8bitUHM",
-      "website": "https://8bituhm.org/",
-      "position": "Full Stack Software Trainee",
-      "startDate": "2024-1-10",
-      "endDate": "Present",
-      "summary": "8bit is a group of students from the University of Hawaii at Manoa passionate about software development and creating impactful software solutions.",
+      "organization": "Robotic Space Exploration (RoSE)",
+      "website": "https://manoa.hawaii.edu/uh-vip/project/robotic-space-exploration-rose-vip/",
+      "position": "GNC Software Developer",
+      "startDate": "2023-09-01",
+      "endDate": "2024-05-31",
+      "summary": "Ground Station UX/UI Software Developer",
       "highlights": [
-        "Facilitated in the development of four software services for two distinct clients, leveraging modern technologies such as Django and TypeScript",
-        "Communicated regularly with clients to understand their project requirements, preferences, and feedback, resulting in a tailored and successful project outcome that exceeded expectations"      
+        "Refactored the user interface, consolidating six intermediary pages into a single streamlined interface, increasing efficiency and user experience.",
+        "Implemented a speedometer and systems page component, enhancing real-time data visualization for rover metrics using React.js and JavaScript."
       ]
     }
   ],
   "awards": [
     {
-      "title": "Merit Scholarship",
-      "date": "2022-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.8 at a Hawai'i public school."
+      "title": "Mānoa Academic Merit Scholarship",
+      "date": "2022-2026",
+      "awarder": "University of Hawaiʻi at Mānoa",
+      "summary": "Awarded for high academic achievement, a four-year scholarship granted by the UH Mānoa Office of Admissions based on GPA and holistic review of the admission application."
     },
     {
-      "title": "United Steelworkers Scholarship",
-      "date": "2022-Present",
-      "awarder": "United Steelworkers",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students to support  their education, typically based on academic achievement, talent, achievements or other criteria."
+      "title": "Fallen Workers Memorial Scholarship",
+      "date": "2022-2025",
+      "awarder": "United Steelworkers Local 12-591",
+      "summary": "Awarded to college students with union family ties in recognition of academic effort and commitment to honoring the legacy of labor and industrial safety reform."
     }
   ],
   "references": [
