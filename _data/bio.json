@@ -52,7 +52,7 @@
       "gpa": "3.76",
       "courses": [
         "Programming in Java and C",
-        "Software Engineering",
+        "Software Engineering I & II",
         "Algorithms and Data Structures",
         "Operating Systems",
         "Database Systems",
@@ -134,7 +134,7 @@
   "volunteer": [
     {
       "organization": "8bit at UH Mānoa",
-      "website": "https://8bituhm.org/",
+      "website": "https://8bithawaii.org/",
       "position": "Founding Member and President",
       "startDate": "2024-03-01",
       "endDate": "Present",
